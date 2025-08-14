@@ -14,7 +14,7 @@
 # from contextlib import asynccontextmanager
 
 # # Configure Gemini API
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyDwofZrGFd1BD2JATI3RC3Zom8PXo2Y7YE"))
+# genai.configure(api_key=os.getenv("GEMINI_API_KEY", "PLACE_HERE_MY_GOOGLE_API_KEY"))
 
 # @asynccontextmanager
 # async def lifespan(app: FastAPI):
@@ -653,7 +653,7 @@ import threading
 from contextlib import asynccontextmanager
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCjt0EWyikhFBosd3sbKvZTJrC04SP-bVM")  # Replace with your actual API key
+genai.configure(api_key="GOOGLE_API_KEY")  # Replace with your actual API key
 
 # Data models
 class AgentConfig(BaseModel):
